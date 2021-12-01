@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -22,12 +23,13 @@ body{
     padding: 2em;
     font-size: 2.5rem;
     text-align: center;
-    background: #041245;
+    background:#161B22;
     color: white;   
 }
 
 .container h1{
-    color: #70FFEE;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    color:#FFB61B;
     font-weight: bold;
     font-size: 4rem;
 }
@@ -47,6 +49,14 @@ body{
 
 .info img{
     width: 38%;    
+}
+div.sd1,div.sd2{
+    font-family: 'Lora',  system-ui;
+    background-color:#2EA043;
+    border-radius: 5px;
+    padding: 5px;
+    
+    
 }
 
 .number {
@@ -93,6 +103,7 @@ button:hover{
 
 #h {
     margin: 2rem 0 1rem 0;
+    color: whitesmoke;
 }
 
 
