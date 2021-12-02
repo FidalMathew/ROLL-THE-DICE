@@ -2,54 +2,37 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Roll the Dice Game</title>
-
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roll the Dice Game</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
-
-    <div class="container">
-
-        <h1>ROLL THE DICE</h1>
-        <div class="info">
-            <div>
-                <div style="display: inline-block">Selected<br> variable:</div> <span id="SV">_</span>
-            </div>
-            <div class="image-dice">
-                <img id="dice" src="img/load.gif" alt="">
-
-            </div>
-
-            <div>Score: <span id="CV">0</span></div>
-        </div>
-
-        <div class="number">
-
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-
-        </div>
-
-        <div id="report"> </div>
-
-        <div id="h">Dice will change in <span id="timeS">0</span> seconds</div>
-
-        <div id="result"></div>
-
+  <div class="container">
+    <h1>ROLL THE DICE</h1>
+    <div class="info">
+      <div>You<br>Selected<br><span id="text-user-selected">0</span></div>
+      <div class="image-dice">
+        <img id="dice" src="img/load.gif" alt="A dice image">
+      </div>
+      <div>Your<br>Score<br><span id="text-total-score">0</span></div>
     </div>
-
-
-    <script src="index.js"></script>
+    <div id="text-init-loading"></div>
+    <div class="number">
+      <button>1</button>
+      <button>2</button>
+      <button>3</button>
+      <button>4</button>
+      <button>5</button>
+      <button>6</button>
+    </div>
+    <div id="h">Dice will change in <span id="timeS">0</span> seconds</div>
+    <div id="result"></div>
+  </div>
+  <script src="index.js"></script>
 </body>
 
 </html>
