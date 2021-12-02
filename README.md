@@ -3,10 +3,12 @@ My first game using HTML, CSS, and Javascript.
 Check out - https://fidalmathew.github.io/ROLL-THE-DICE/
 <hr>
 In this game you have to guess a number on the die 🎲 while it gets rolled. If your guess is right then your score will be updated by one. 
+
 * There is a 10 second wait/countdown between rolls
 * A 10 second opportunity to guess the roll 
 * When you click your guess, the roll immediately happens and the result is reported 
 * If the 10 seconds on the roll expires, it simply resets and there is no impact to your score.
+
 <br  />
 <br  />
 
