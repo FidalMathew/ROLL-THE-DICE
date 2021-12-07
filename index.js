@@ -1,6 +1,7 @@
 "use strict";
 let score = 0;
 let randomVar;
+let trialNumber = 1;
 let buttonVal = document.getElementsByTagName("button");
 let result = document.getElementById("result");
 let report = document.getElementById("text-init-loading");
@@ -24,6 +25,8 @@ const Clicked = (e) => {
     element.disabled = true;
     element.classList.toggle("disabled");
   });
+  trialNumber++;
+  document.getElementById("text-ttrial-number").innerHTML = trialNumber;
 }
 const load = () => {
   report.innerHTML = `<h2>Loading...</h2>
