@@ -20,3 +20,7 @@ In this game you have to guess a number on the die 🎲 while it gets rolled. If
 
 <a href="https://ibb.co/GxN2wZG"><img src="https://i.ibb.co/5Mw8DQC/Screen-Shot-2021-12-01-at-4-38-33-PM.png" alt="Correct guess" border="0"></a>
 
+# Resources
+- Audio files from https://pixabay.com/
+
+
