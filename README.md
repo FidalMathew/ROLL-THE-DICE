@@ -11,7 +11,7 @@
 - A 10 second opportunity to guess the roll.
 - When you click your guess, the roll immediately happens and the result is reported.
 - If the 10 seconds on the roll expires, it simply resets and there is no impact to your score.
-- ** Screes Size ** If you are on a desktop browser, make sure to set your browser to 'Full Screen Mode' (F11)
+- **Adjusting Screen Size:** If you are on a desktop browser, make sure to set your browser to 'Full Screen Mode' (**F11**)
 
 ## Contribution are Welcomed
 ### Contribution Guidelines for this Project
