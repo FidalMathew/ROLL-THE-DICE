@@ -17,3 +17,6 @@
 1. Read the issues first. Some of them are simple and some are challenging.
 2. Try to fix them and then send a Pull Request (PR).
 3. Create a new issue if it is not already there.
+
+## Resources
+- Audio files from [www.pixabay.com](https://pixabay.com/)
