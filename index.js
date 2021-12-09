@@ -36,7 +36,7 @@ const load = () => {
       The game will start in few seconds!
     </span>`;
   document.getElementById('h').style.visibility="hidden";
-  document.getElementById('result').style.visibility="hidden";
+  result.style.visibility="hidden";
   document.getElementById("text-user-selected").style.visibility="hidden";
   Array.from(buttonVal).forEach(element => {
     element.addEventListener("click", Clicked);
@@ -46,7 +46,6 @@ const load = () => {
   setTimeout(() => {
     report.style.visibility="hidden";
     document.getElementById('h').style.visibility="visible";
-    document.getElementById('result').style.visibility="visible";
   }, 6000);
 }
 const DisplayTime = () => {
@@ -55,6 +54,9 @@ const DisplayTime = () => {
     timeS.innerHTML = timesecond;
     timesecond--;
     if (timesecond == 0) {
+      result.style.color = "#FFFFFF";
+      result.innerHTML="Can you guess it?";
+      result.style.visibility="visible";
       timesecond = 10;
     }
   }, 1000);
@@ -64,7 +66,7 @@ const addNewRandom = () => {
     randomVar = Math.floor(Math.random() * 6) + 1;
     dice.src = `img/load.gif`;
     dice.style.width = "37.5%";
-    result.innerHTML = "";
+    // result.innerHTML = "";
     document.getElementById("text-user-selected").style.visibility="hidden";
     Array.from(buttonVal).forEach(element => {
       element.disabled = false;
