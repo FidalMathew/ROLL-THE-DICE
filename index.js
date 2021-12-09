@@ -32,11 +32,11 @@ const Clicked = (e) => {
 }
 const load = () => {
   report.innerHTML = `<h2>Loading...</h2>
-    <span style="font-size:15px;">
+    <span style="font-size:0.7em;">
       The game will start in few seconds!
     </span>`;
-  document.getElementById('h').style.display = "none";
-  document.getElementById('result').style.display = "none";
+  document.getElementById('h').style.visibility="hidden";
+  document.getElementById('result').style.visibility="hidden";
   document.getElementById("text-user-selected").style.visibility="hidden";
   Array.from(buttonVal).forEach(element => {
     element.addEventListener("click", Clicked);
@@ -45,8 +45,8 @@ const load = () => {
   });
   setTimeout(() => {
     report.style.visibility="hidden";
-    document.getElementById('h').style.display = "block";
-    document.getElementById('result').style.display = "block";
+    document.getElementById('h').style.visibility="visible";
+    document.getElementById('result').style.visibility="visible";
   }, 6000);
 }
 const DisplayTime = () => {
