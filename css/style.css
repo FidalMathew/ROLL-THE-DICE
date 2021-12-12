@@ -55,7 +55,13 @@ body {
   height: 83px;
 }
 
-.info img {
+.image-music {
+  width: 200px;
+  height: 83px;
+  background-color: white;
+}
+
+.info img, #image-music {
   width: 38%;
 }
 

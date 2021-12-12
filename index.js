@@ -2,6 +2,7 @@
 let score = 0;
 let randomVar;
 let trialNumber = 1;
+let playMusic = true;
 let buttonVal = document.getElementsByTagName("button");
 let result = document.getElementById("result");
 let report = document.getElementById("text-init-loading");
@@ -17,11 +18,13 @@ const Clicked = (e) => {
     result.innerHTML = "You guess it right!";
     score++;
     document.getElementById("text-total-score").innerHTML = score;
-    playSoundSuccess();
+    //playSoundSuccess();
+    playSound("right");
   } else {
     result.style.color = "#FF6D2E";
     result.innerHTML = "Sorry, it was a wrong number!";
-    playSoundFailure();
+    //playSoundFailure();
+    playSound("wrong");
   }
   Array.from(buttonVal).forEach(element => {
     element.disabled = true;
@@ -74,16 +77,26 @@ const addNewRandom = () => {
     });
   }, 10000);
 }
-
-function playSoundSuccess() {
-  var audio = new Audio("./assets/audio/success-1-6297.mp3");
-  audio.play();
+function musicImageHandler(){
+  if (playMusic){
+    playMusic = false;
+    document.getElementById("image-music").src = `img/music-off.png`;
+  }else{
+    playMusic = true;
+    document.getElementById("image-music").src = `img/music-on.png`;
+  }
 }
-function playSoundFailure() {
-  var audio = new Audio("./assets/audio/negative_beeps-6008.mp3");
-  audio.play();
+function playSound(state){
+  if(playMusic){
+    if (state == "right"){
+      var audio = new Audio("./assets/audio/success-1-6297.mp3");
+      audio.play();
+    }else if(state == "wrong"){
+      var audio = new Audio("./assets/audio/negative_beeps-6008.mp3");
+      audio.play();
+    }
+  } 
 }
-
 window.onload = () => {
   load();
   DisplayTime();
