@@ -35,6 +35,22 @@ body {
   font-size: 3rem;
 }
 
+.game-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1em auto 1em auto;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+  font-size: 1.3em;
+  max-width: 1000px;
+}
+
+.game-header div:nth-child(3){
+  width: 25%;
+  max-width: 100px;
+}
+
 .info {
   display: flex;
   justify-content: space-around;
@@ -47,7 +63,6 @@ body {
   background-color:#0000ee;
   border: solid 1px lightskyblue;
   border-radius: 0.3em 0.3em 0.3em 0.3em;
-
 }
 
 .image-dice {
@@ -55,14 +70,13 @@ body {
   height: 83px;
 }
 
-.image-music {
-  width: 200px;
-  height: 83px;
-  background-color: white;
+.info img {
+  width: 38%;
 }
 
-.info img, #image-music {
-  width: 38%;
+#image-music {
+  width: 50%;
+  /* max-width: 100px; */
 }
 
 .number {
