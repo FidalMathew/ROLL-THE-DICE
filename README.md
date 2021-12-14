@@ -16,8 +16,17 @@
 ## Contribution are Welcomed
 ### Contribution Guidelines for this Project
 1. Read the issues first. Some of them are simple and some are challenging.
-2. Try to fix them and then send a Pull Request (PR).
+2. Try to fix them and then send a Pull Request (PR). Include a screenshot
+along with your PR (read below).
 3. Create a new issue if it is not already there.
+
+#### How to Add a Screenshot
+- Please, add two identical screenshot PNG files under 'README FILES' directory.
+    - one must be named 'screenshot.PNG' and
+    - the other must be named 'screenshot_xxxxxxxxxx.PNG' where xxxxxxxxxx is 
+    [the Unix Time Stamp](https://www.unixtimestamp.com/)
+    - **Why?** The time spamed images help us to keep track of past UI changes
 
 ## Resources
 - Audio files from [www.pixabay.com](https://pixabay.com/)
+- [Unix Time Stamp](https://www.unixtimestamp.com/)
