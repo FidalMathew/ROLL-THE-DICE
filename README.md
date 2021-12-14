@@ -2,7 +2,7 @@
 - A simple open source game using HTML, CSS, and Javascript.
 - To play the game, click [ROLL-THE-DICE](https://fidalmathew.github.io/ROLL-THE-DICE/)
 
-![Screenshot](https://github.com/FidalMathew/ROLL-THE-DICE/blob/main/README%20FILES/screenshot_1638872077.PNG)
+![Screenshot](https://github.com/FidalMathew/ROLL-THE-DICE/blob/main/README%20FILES/screenshot.PNG)
 
 ## Game Description
 - In this game you have to guess a number on the die 🎲 while it gets rolled. 
